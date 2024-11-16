@@ -1,0 +1,200 @@
+* {
+  color: black;
+  background-color: white;
+}
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.title {
+  text-align: center;
+  font-size: 58px;
+  font-family: sans-serif;
+}
+.container {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0px 0px rgba(223, 220, 220, 0.75);
+  text-align: center;
+  margin-bottom: 50px;
+}
+search-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px 0;
+  padding: 5px;
+
+  gap: 10px;
+}
+.search-input {
+  font-family: sans-serif;
+  font-size: 16px;
+  align-self: center;
+}
+.input {
+  font-family: sans-serif;
+  padding: 12px 20px;
+  margin: 8px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+.search-button {
+  background: black;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.search-button:hover {
+  background: white;
+  color: black;
+}
+.name-and-id {
+  height: 28px;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.size {
+  height: 22px;
+  font-size: 18px;
+  font-style: italic;
+}
+.sprite-container {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#types {
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.type {
+  width: 100px;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  background-color: black;
+  text-transform: uppercase;
+}
+.bottom-container {
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+table {
+  display: block;
+  margin: 0 auto;
+  border-collapse: collapse;
+  max-width: 200px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+th:nth-child(even),
+td:nth-child(even) {
+  border-left: 5px solid black;
+}
+
+tr {
+  border-bottom: 5px solid black;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+.normal {
+  background-color: #b7b7aa;
+}
+
+.fire {
+  background-color: #ff6f52;
+}
+
+.water {
+  background-color: #42a1ff;
+}
+
+.electric {
+  background-color: #fecc33;
+}
+
+.grass {
+  background-color: #78cc55;
+}
+
+.ice {
+  background-color: #66ccfe;
+}
+
+.fighting {
+  background-color: #d3887e;
+}
+
+.poison {
+  background-color: #c68bb7;
+}
+
+.ground {
+  background-color: #dfba52;
+}
+
+.flying {
+  background-color: #8899ff;
+}
+
+.psychic {
+  background-color: #ff66a3;
+}
+
+.bug {
+  background-color: #aabb23;
+}
+
+.rock {
+  background-color: #baaa66;
+}
+
+.ghost {
+  background-color: #9995d0;
+}
+
+.dragon {
+  background-color: #9e93f1;
+}
+
+.dark {
+  background-color: #b59682;
+}
+
+.steel {
+  background-color: #abaabb;
+}
+
+.fairy {
+  background-color: #ed99ed;
+}
